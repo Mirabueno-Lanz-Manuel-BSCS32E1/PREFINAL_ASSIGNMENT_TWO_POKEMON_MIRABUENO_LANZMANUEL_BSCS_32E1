@@ -1,0 +1,7 @@
+C:\Users\Lanz\Desktop\Visual Studio Mirabueno\PokemonApp\obj\Debug\net8.0\PokemonApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lanz\Desktop\Visual Studio Mirabueno\PokemonApp\obj\Debug\net8.0\PokemonApp.AssemblyInfoInputs.cache
+C:\Users\Lanz\Desktop\Visual Studio Mirabueno\PokemonApp\obj\Debug\net8.0\PokemonApp.AssemblyInfo.cs
+C:\Users\Lanz\Desktop\Visual Studio Mirabueno\PokemonApp\obj\Debug\net8.0\PokemonApp.csproj.CoreCompileInputs.cache
+C:\Users\Lanz\Desktop\Visual Studio Mirabueno\PokemonApp\obj\Debug\net8.0\PokemonApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lanz\Desktop\Visual Studio Mirabueno\PokemonApp\obj\Debug\net8.0\PokemonApp.RazorAssemblyInfo.cache
+C:\Users\Lanz\Desktop\Visual Studio Mirabueno\PokemonApp\obj\Debug\net8.0\PokemonApp.RazorAssemblyInfo.cs

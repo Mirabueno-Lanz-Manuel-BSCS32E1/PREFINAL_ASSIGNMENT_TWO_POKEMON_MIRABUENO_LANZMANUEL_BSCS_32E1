@@ -1,0 +1,37 @@
+﻿@model IEnumerable<PokemonApp.Models.Pokemon>
+@{
+    ViewBag.Title = "Pokémon List";
+}
+
+<h2>Pokémon List</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pokemon in Model)
+        {
+            <tr>
+                <td>@pokemon.Name</td>
+                <td>
+                    <a href="@Url.Action("Details", "Pokemon", new { id = pokemon.Id })">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+        @for (int i = 1; i <= Math.Ceiling((double)ViewBag.TotalCount / 20); i++)
+        {
+            <li class="page-item @(ViewBag.Page == i ? "active" : "")">
+                <a class="page-link" href="@Url.Action("Index", new { page = i })">@i</a>
+            </li>
+        }
+    </ul>
+</nav>
